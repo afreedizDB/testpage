@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Candidate Information Form</h1>
+    <form>
+        <div class="form-group">
+            <label for="candidateCode">Candidate Code:</label>
+            <input type="text" id="candidateCode" value="" name="candidateCode" >
+        </div>
+        <div class="form-group">
+            <label for="passportNumber">Passport Number:</label>
+            <!-- <input type="text" id="passportNumber" value="" > -->
+             <select name="passportNumber" id="passportNumber">
+                <option value="">please select</option>
+                <option value="P2699580">P2699</option>
+                <option value="gds">dgsf</option>
+             </select>
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+        </div>
+        <div class="form-group">
+            <label for="nameOfMother">Name of Mother:</label>
+            <input type="text" id="nameOfMother" value="" >
+        </div>
+        <div class="form-group">
+            <label for="overallBandScore">Overall Band Score:</label>
+            <input type="text" id="overallBandScore" value="" >
+        </div>
+        <div class="form-group">
+            <label for="letterFrom">Letter From:</label>
+            <input type="text" id="letterFrom">
+        </div>
+        <div class="form-group">
+            <label for="organisationName">Organisation Name:</label>
+            <input type="text" id="organisationName">
+        </div>
+        <div class="form-group">
+            <label for="writing">Writing:</label>
+            <input type="text" id="writing" value="" >
+        </div>
+        <div class="form-group">
+            <label for="reading">Reading:</label>
+            <input type="text" id="reading" value="" >
+        </div>
+        <div class="form-group">
+            <label for="listening">Listening:</label>
+            <input type="text" id="listening" value="" >
+        </div>
+        <div class="form-group">
+            <label for="speaking">Speaking:</label>
+            <input type="text" id="speaking" value="" >
+        </div>
+        <div class="form-group">
+            <label for="dateOfTest">Date of Test:</label>
+            <input type="text" id="dateOfTest" value=" >
+        </div>
+        <div class="form-group">
+            <label for="refereesName">Referee's Name:</label>
+            <input type="text" id="refereesName">
+        </div>
+        <div class="form-group">
+            <label for="organizationAddress">Organization Address:</label>
+            <input type="text" id="organizationAddress">
+        </div>
+        <div class="form-group">
+            <label for="designation">Designation:</label>
+            <input type="text" id="designation">
+        </div>
+        <div class="form-group">
+            <label for="refereesEmailId">Referee's Email ID:</label>
+            <input type="email" id="refereesEmailId">
+        </div>
+        <div class="form-group">
+            <label for="refereesContactNumber">Referee's Contact Number:</label>
+            <input type="text" id="refereesContactNumber">
+        </div>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" value="" >
+        </div>
+        <div class="form-group">
+            <label for="boardOfExam">Board of Exam:</label>
+            <input type="text" id="boardOfExam" value="" >
+        </div>
+        <div class="form-group">
+            <label for="monthYearOfPassing">Month/Year of Passing:</label>
+            <input type="text" id="monthYearOfPassing" value="" >
+        </div>
+        <div class="form-group">
+            <label for="nameOfCandidate">Name of Candidate:</label>
+            <input type="text" id="nameOfCandidate">
+        </div>
+        <div class="form-group">
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree">
+        </div>
+        <div class="form-group">
+            <label for="universityName">University Name:</label>
+            <input type="text" id="universityName">
+        </div>
+        <div class="form-group">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" value="" >
+        </div>
+        <div class="form-group">
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality">
+        </div>
+        <div class="form-group">
+            <label for="placeOfIssue">Place of Issue:</label>
+            <input type="text" id="placeOfIssue" value="" >
+        </div>
+        <div class="form-group">
+            <label for="dateOfIssue">Date of Issue:</label>
+            <input type="text" id="dateOfIssue" value="" >
+        </div>
+        <div class="form-group">
+            <label for="dateOfExpiry">Date of Expiry:</label>
+            <input type="text" id="dateOfExpiry" value="" >
+        </div>
+        <div class="form-group">
+            <label for="givenName">Given Name:</label>
+            <input type="text" id="givenName" value="" >
+        </div>
+        <div class="form-group">
+            <label for="aadharNumber">Aadhar Number:</label>
+            <input type="text" id="aadharNumber">
+        </div>
+        <div class="form-group">
+            <label for="dobAdditional">Date of Birth (Additional):</label>
+            <input type="date" id="dobAdditional">
+        </div>
+        <div class="form-group">
+            <label for="nameOfFatherLegalGuardian">Name of Father/Legal Guardian:</label>
+            <input type="text" id="nameOfFatherLegalGuardian" value="" >
+        </div>
+        <div class="form-group">
+            <label for="nameOfSpouse">Name of Spouse:</label>
+            <input type="text" id="nameOfSpouse" value="" >
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea rows="30" cols="50" type="text" id="address" value="" ></textarea>
+        </div>
+    </form>
+</body>
+</html>
